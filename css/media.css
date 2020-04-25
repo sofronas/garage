@@ -1,0 +1,8 @@
+@media only screen and (min-width: 1000px){
+	.whiteboard{
+		width: 318px;
+    	height: 200px;
+    	right: 94px;
+    	top: 29px;
+	}
+}

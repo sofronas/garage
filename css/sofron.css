@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+    padding:0px;
+    font-family: 'Open Sans Condensed';
+	box-sizing: border-box;
+}
+
+body{
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-color: #EEEEEE;
+}
+
+.whiteboard{
+	background-color: #FAFAFA;
+	/*border-radius: 15px;*/
+	border-radius: 15px 50px 30px;
+}
+
+.gameCard{
+	position: relative;
+	width: auto;
+	height: auto;
+	/*background: #BE4F3A;*/
+	overflow: hidden;
+}
+
+.imgBox{
+	position: relative;
+  	width: 100%;
+}
+
+.imgBox img {
+	width: 100%;
+	height: 100%;
+}
+
+.imgBox .PlayGame1Box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 36px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+.container .PlayGame1Box:hover {
+	background-color: red;
+}

@@ -1,0 +1,228 @@
+<!-- Re Garage -->
+<!-- Designer: Sofronas Konstantinos Sotirios -->
+<!-- Email: sofronas.konstantinos@gmail.com -->
+
+<!DOCTYPE html>
+<html lang="el">
+<head>	
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Re Garage</title>
+
+	<!-- Favicon -->
+	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+	<link rel="shortcut icon" href="images/logoregarage.png">
+
+	<!-- Css -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+
+
+	<!-- Custom Css -->
+	<link rel="stylesheet" type="text/css" href="css/sofron.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	
+	<!-- FontAwesome -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,greek,greek-ext' rel='stylesheet' type='text/css' /> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet"> -->
+
+	<!-- Custom Inside Css -->
+	<style type="text/css">
+		.sb {
+			border: 1px solid red;
+		}
+		.sfont {
+			font-size:	20px;
+		}
+	</style>
+
+</head>
+<body>
+	<!-- Image and Info Container -->
+	<div class="container">
+		<div class="row" style="opacity: 0;">1<br></div>
+
+		<!-- Image And Text Infomartion -->
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<!-- <img src="images/favicon.png" alt="Logo"> -->
+				<img src="images/logoregarage.png" alt="Logo">
+			</div>
+			<div class="col-12 col-md-4 whiteboard">
+				<p><font size="6"><b>Για απορίες</b></font></p>
+                <h1>Επικοινωνία</h1>
+                <p>E-mail: <a href="mailto:sofronas.konstantinos@gmail.com">sofronas.konstantinos@gmail.com</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Form -->
+
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-12 col-md-8">
+				<h3>Φόρμα Παραγγελίας</h3>
+				<hr>
+				<form action="" class="needs-validation" novalidate>
+					<div class="form-group">
+						<label for="uname" class="sfont">Email:</label>
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4"><input type="text" class="form-control" id="uname" placeholder="Email" name="uname" required></div>
+						<div class="col-md-4"></div>
+						</div>
+						
+						<div class="valid-feedback"></div>
+						<div class="invalid-feedback">Παρακαλώ Συμπληρώστε τα στοιχεία!</div>
+					</div>
+					<div class="col">
+						<h4>Επιλογή Φούτερ:</h4>
+					</div>
+					<div class="row">
+                        <div class="col-md-3">
+                            <div class="custom-control custom-radio image-checkbox">
+                                <input type="radio" class="custom-control-input" id="arkadiaId" name="ck2" checked="checked" onChange="fouter('fcImageId');">
+                                <label class="custom-control-label" for="arkadiaId">FC</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="custom-control custom-radio image-checkbox">
+                                <input type="radio" class="custom-control-input" id="messiniaId" name="ck2" onChange="fouter('fdImageId');">
+                                <label class="custom-control-label" for="messiniaId">FD</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="custom-control custom-radio image-checkbox">
+                                <input type="radio" class="custom-control-input" id="lakoniaId" name="ck2" onChange="fouter('s2ImageId');">
+                                <label class="custom-control-label" for="lakoniaId">S200</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="custom-control custom-radio image-checkbox">
+                                <input type="radio" class="custom-control-input" id="ilieiaId" name="ck2" onChange="fouter('frImageId');">
+                                <label class="custom-control-label" for="ilieiaId">Bonus</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    	<img src="images/fc.jpg" id="fcImageId" alt="RX7 FC" height="auto" style="display: none;">
+                    	<img src="images/fd.jpg" id="fdImageId" alt="RX7 FD" height="auto" style="display: none;">
+                    	<img src="images/s2000.jpg" id="s2ImageId" alt="S2000" height="auto" style="display: none;">
+                    	<img src="images/fr.jpg" id="frImageId" alt="Bonus" height="auto" style="display: none;">
+                    </div>
+                    <br>
+					<div class="form-group">
+						<label for="pwd" class="sfont">Password:</label>
+						<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+						<div class="valid-feedback"></div>
+						<div class="invalid-feedback">Παρακαλώ Συμπληρώστε τα στοιχεία!</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Αποστολή Παραγγελίας</button>
+				</form>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div> -->
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-12">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-Ux4My-2m36bMMNbxUtNYyPcebxupQKAE_C4Z7pGMc-ZDWA/viewform?embedded=true"frameborder="0" marginheight="0" marginwidth="0">Φόρτωση…</iframe>
+			</div>
+		</div>
+	</div>
+	<br> -->
+
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-Ux4My-2m36bMMNbxUtNYyPcebxupQKAE_C4Z7pGMc-ZDWA/viewform?embedded=true"frameborder="0" marginheight="0" marginwidth="0">Φόρτωση…</iframe>
+	</div>
+
+	<br>
+	
+	<!-- Social Media -->
+	<div class="container">
+        <a class="socialLink" target="_blank" href="https://www.youtube.com/channel/UCwxWX0IfwGq1MzEzteLeqYg"><img alt="Youtube" src="images/Youtube-icon.png" /></a>
+        <!-- <a class="socialLink" target="_blank" href="http://twitch.tv/"><img alt="Twitch" src="images/Twitch-icon.png" /></a> -->
+        <a class="socialLink" target="_blank" href="https://www.facebook.com/groups/1114316555575504"><img alt="Facebook" src="images/Facebook-icon.png" /></a>
+        <a class="socialLink" target="_blank" href="http://twitter.com/"><img alt="Twitter" src="images/Twitter-icon.png" /></a>
+        <!-- <a class="socialLink" target="_blank" href="https://plus.google.com/" rel="publisher"><img alt="Google+" src="images/Google-plus-icon.png" /></a> -->
+        <a class="socialLink" target="_blank" href="https://www.instagram.com/djalenkan/"><img alt="Instagram" src="images/Instagram-icon.png" /></a>
+    </div>
+
+	<!-- Footer -->
+	<div class="container">
+		<hr>
+		<div class="container">
+			<footer>
+				<p>	All Rights Reserved. Copyright © Re.Garage 
+		            <script type="text/javascript">
+		            	var yearS = 2020;
+		                var year = new Date();
+
+		                //2019 - 2020
+		                if (year.getFullYear() !== yearS) {
+		                	document.write(yearS);
+		                	document.write(" - ");
+		                	document.write(year.getFullYear());
+		                	document.write(" | ")
+		                } else {
+		                	document.write(yearS);
+		                	document.write(" - ")
+		                }
+		            </script>  
+		           	Designed by 
+            		<a rel="nofollow" href="https://sofronas.github.io/" target="_blank">Sofronas Konstantinos Sotirios</a>
+        		</p>
+			</footer>
+		</div>
+		<hr>
+	</div>
+
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/jQuery_easing.js"></script>
+	<script src="js/hover_effect.js"></script>
+	<script src="js/jsPlay.js"></script>
+	<script>
+		// Disable form submissions if there are invalid fields
+		(function() {
+		  'use strict';
+		  window.addEventListener('load', function() {
+		    // Get the forms we want to add validation styles to
+		    var forms = document.getElementsByClassName('needs-validation');
+		    // Loop over them and prevent submission
+		    var validation = Array.prototype.filter.call(forms, function(form) {
+		      form.addEventListener('submit', function(event) {
+		        if (form.checkValidity() === false) {
+		          event.preventDefault();
+		          event.stopPropagation();
+		        }
+		        form.classList.add('was-validated');
+		      }, false);
+		    });
+		  }, false);
+		})();
+	</script>
+
+
+	<script>
+		function fouter(id) {
+		var el = document.getElementById(id);
+
+		if (el.style.visibility=="visible") { 
+		      el.style.visibility="hidden";
+		 }
+		 else {
+		      el.style.visibility="visible";
+		 }
+		}
+	</script>
+</body>
+</html>
